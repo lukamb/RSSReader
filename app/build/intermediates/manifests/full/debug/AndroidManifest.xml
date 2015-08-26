@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cz.vutbr.fit.gja.rssreader"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.AddEditSourceActivity"
+            android:label="@string/title_activity_add_source"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.ManageSourcesActivity" />
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.ManageSourcesActivity"
+            android:label="@string/title_activity_manage_sources"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.MainActivity" />
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.AddEditCategoryActivity"
+            android:label="@string/title_activity_add_category"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.ManageCategoriesActivity" />
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.ManageCategoriesActivity"
+            android:label="@string/title_activity_manage_categories"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.MainActivity" />
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.ArticleActivity"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cz.vutbr.fit.gja.rssreader.ui.MainActivity" />
+        </activity>
+        <activity
+            android:name="cz.vutbr.fit.gja.rssreader.ui.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="cz.vutbr.fit.gja.rssreader.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cz.vutbr.fit.gja.rssreader.ui.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

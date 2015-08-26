@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:gravity="center">
+
+  <TextView
+     android:id="@+id/manageSrcCatLabel"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="5"
+     android:layout_marginLeft="16dp"
+     android:textSize="18sp"
+     android:onClick="onClickTitle"
+     android:clickable="true"
+     />
+
+  <ImageButton
+     android:layout_width="0dp"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:layout_marginRight="6dp"
+     android:src="@drawable/ic_action_article_delete"
+     android:onClick="onClickDeleteButton"
+     android:contentDescription="@string/delete"
+     android:layout_gravity="right"
+     style="?android:attr/buttonBarButtonStyle"
+     />
+
+</LinearLayout> <!-- From: file:/C:/Users/Lukas/AndroidStudioProjects/RSSReader/app/src/main/res/layout/src_cat_simple_view.xml -->

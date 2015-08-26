@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArticleSimpleView">
+        <attr name="titleText" format="string" />
+        <attr name="descText" format="string" />
+        <attr name="sourceText" format="string" />
+        <attr name="pubDateText" format="string" />
+    </declare-styleable>
+
+</resources>

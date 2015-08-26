@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:layout_width="fill_parent"
+	    android:id="@+id/addSourceNameField"
+        android:layout_height="wrap_content"
+        android:hint="@string/addSourceNameField" />
+    <EditText
+        android:layout_width="fill_parent"
+	    android:id="@+id/addSourceLinkField"
+        android:layout_height="wrap_content"
+        android:hint="@string/addSourceLinkField" 
+        android:inputType="textUri"/>
+
+	<Spinner
+	    android:id="@+id/addSourceCategoriesSpinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/addSourceSendBut" 
+        android:onClick="submit" />
+    
+
+</LinearLayout><!-- From: file:/C:/Users/Lukas/AndroidStudioProjects/RSSReader/app/src/main/res/layout/add_source.xml -->

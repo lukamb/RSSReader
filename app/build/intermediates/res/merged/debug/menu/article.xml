@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cz.vutbr.fit.gja.rssreader.ArticleActivity" >
+
+</menu>
+<!-- From: file:/C:/Users/Lukas/AndroidStudioProjects/RSSReader/app/src/main/res/menu/article.xml -->

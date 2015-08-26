@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- save unread go delete2 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle"
+        >
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_article_save"
+                android:contentDescription="@string/save_article"
+                android:onClick="onClickArticleSaveButton"
+                android:tag="savebtn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_article_unread"
+                android:contentDescription="@string/unread_article"
+                android:onClick="onClickArticleUnreadButton"
+                android:tag="unreadbtn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_article_go"
+                android:contentDescription="@string/go_to_article"
+                android:onClick="onClickArticleGoButton"
+                android:tag="gobtn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_article_delete"
+                android:contentDescription="@string/delete_article"
+                android:onClick="onClickArticleDeleteButton"
+                android:tag="deletebtn2"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+
+    </LinearLayout>
+
+
+
+<!-- unread_mark title closebtn1 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        >
+            <View
+                android:layout_width="3dp"
+                android:layout_marginLeft="2dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:onClick="onClickArticleTitle"
+                android:clickable="true"
+                android:tag="title"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ic_action_article_delete"
+                android:onClick="onClickArticleDeleteButton"
+                android:contentDescription="@string/delete_article"
+                android:layout_gravity="right"
+                android:tag="closebtn"
+                style="?android:attr/buttonBarButtonStyle"
+                />
+    </LinearLayout>
+
+    <!-- source pubdate -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginLeft="8dp"
+                android:textSize="10sp"
+                android:tag="source"
+                />
+
+           <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:textSize="10sp"
+                android:tag="pubdate"
+                android:layout_gravity="right"
+                android:gravity="right"
+                />
+    </LinearLayout>
+
+<!-- description -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:tag="description"
+            />
+</merge> 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Lukas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Lukas\AndroidStudioProjects\RSSReader\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-deec1c753408a5143538faed24da0d1402afad6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lukas\AndroidStudioProjects\RSSReader\app\libs\sax-rss-reader.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3d9e472191960cc854e7e8f461c3564c942d0bd3">
+        <dex dex="C:\Users\Lukas\AndroidStudioProjects\RSSReader\app\build\intermediates\pre-dexed\debug\sax-rss-reader-1fdb56a48cc98e2213808b5b0dcdbe731979456f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Lukas\AndroidStudioProjects\RSSReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Lukas\AndroidStudioProjects\RSSReader\app\build\intermediates\pre-dexed\debug\classes-516a5d957d02c0a609ab83e53ee665899c7554cb.jar" />
+    </item>
+
+</items>

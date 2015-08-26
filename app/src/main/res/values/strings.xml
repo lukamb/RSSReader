@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSS Reader</string>
+    <string name="appPrefShowReadedArticles">appPrefShowReadedArticles</string>
+    <string name="no_connection">Síť je off-line.</string>
+    <string name="was_executed">Právě probíhá.</string>
+    <string name="updating_articles">Probíha stahovaní nových článků</string>
+    <string name="articles_updated">Články byly aktualizovány</string>
+
+    <!-- Menu -->
+    <string name="menu_refresh">Aktualizovat</string>
+    <string name="menu_settings">Nastavení</string>
+    <string name="menu_show_readed">Zobrazit přečtené</string>
+    <string name="menu_hide_readed">Skrýt přečtené</string>
+    <string name="menu_add_source">Přidat zdroj</string>
+    <string name="menu_manage_sources">Spravovat zdroje</string>
+    <string name="menu_manage_categories">Spravovat kategorie</string>
+    <string name="menu_add_category">Přidat kategorii</string>
+    <!-- // Menu -->
+
+    <string name="title_activity_manage_sources">Správce zdrojů</string>
+
+    <!-- Add source activity -->
+    <string name="title_activity_add_source">RSS zdroj</string>
+    <string name="unable_to_get_data">Nepovedlo se stáhnout žádne články.</string>
+    <string name="invalid_source">Zdroj neni validní.</string>
+    <string name="invalid_url">Špatně zadana adresa</string>
+    <string name="addSourceNameField">Název zdroje</string>
+    <string name="addSourceLinkField">URL adresa zdroje</string>
+    <string name="addSourceSendBut">Potvrdit</string>
+    <string name="addSourceMsgNoName">Název musí být zadán</string>
+    <string name="addSourceMsgNoLink">Adresa musí být zadána</string>
+    <string name="checking_source_title">Probíha kontrola</string>
+    <string name="checking_source_msg">Prosím čekejte, probíha kontrola zda zdroj poskytuje validní RSS data.</string>
+    <!-- // Add source activity -->
+
+    <string name="title_activity_manage_categories">Správce kategorií</string>
+	<!-- 	Add/Edit category -->
+	<string name="title_activity_add_category">Kategorie</string>
+    <string name="addCategoryNameField">Název kategorie</string>
+    <string name="addCatMsgNoName">Název musí být zadán</string>
+	<!-- //	Add/Edit category -->
+	
+    <string name="refresh_progress">Stahuji články:</string>
+    <string name="all">Vše</string>
+    <string name="saved">Uložené</string>
+    <string name="uncategorized">Nezařazené</string>
+    <string name="noData">Prozatím nebyly staženy žádné články</string>
+
+    <!-- Article list view -->
+    <string name="go_to_article">Zobrazit článek</string>
+    <string name="delete_article">Smazat článek</string>
+    <string name="save_article">Uložit článek</string>
+    <string name="unread_article">Označit článek jako neprečtený</string>
+    <string name="delete">Smazat</string>
+    <!-- // Article list view -->
+
+    <string-array name="default_categories">
+        <item>@string/all</item>
+        <item>@string/saved</item>
+        <item>@string/uncategorized</item>
+    </string-array>
+    
+    <string name="menu_save">Uložit článek</string>
+    <string name="save_success">Článek byl úspěšně uložen</string>
+    <string name="save_failed">Článek se nepodařilo uložit</string>
+    <string name="save_not_found">Uložený článek nebyl nalezen, bude načten znovu ze sítě</string>
+
+    <!-- Settings activity -->
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="detail_level">Detail náhledu článku</string>
+    <string name="detail_min">Malý</string>
+    <string name="detail_mid">Střední</string>
+    <string name="detail_max">Největší</string>
+    <string name="remove_old_unread_label">Odstranit i neprečtené články</string>
+    <string name="remove_after_days_label">Prečtené články odstranit po (dnech)</string>
+    <string name="toast_day_limit">Povolený interval: 0 &#8211; 99 dní.</string>
+    <string name="toast_check_limit">Kombinace \"0 dní\" a \"odstranit i neprečtené články\" je nepodporovaná.</string>
+    <!-- //Settings activity -->
+
+    <string name="empty">Žádné položky</string>
+</resources>
